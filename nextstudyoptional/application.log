@@ -1,0 +1,4 @@
+2021-03-25 11:15:20,415  INFO [main] HomePageTest:28 - driver initialized
+2021-03-25 11:15:22,451  INFO [main] HomePageTest:36 - my account link clicked
+2021-03-25 11:15:35,987  INFO [main] TestBase:42 - login successfull
+2021-03-25 11:15:48,270  INFO [main] TestBase:49 - clicked on registernow link

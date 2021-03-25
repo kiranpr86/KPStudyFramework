@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.next.qa.utils.Listeners"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.next.qa.testcases.LoginPageTest">
+        <methods>
+          <include name="LoginTest"/>
+          <include name="RegisternowclickTest"/>
+          <include name="setup"/>
+          <include name="Teardown"/>
+        </methods>
+      </class> <!-- com.next.qa.testcases.LoginPageTest -->
+      <class name="com.next.qa.testcases.RegisterNowPagetest">
+        <methods>
+          <include name="Teardown"/>
+          <include name="NameinputTest"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.next.qa.testcases.RegisterNowPagetest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
