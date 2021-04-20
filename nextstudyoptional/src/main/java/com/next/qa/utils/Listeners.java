@@ -20,7 +20,7 @@ public class Listeners implements ITestListener {
 
 	public void onTestStart(ITestResult result) {
 	System.out.println("Execution started");
-	test=extent.createTest(result.getMethod().getMethodName());
+	test=extent.createTest(result.getMethod().getMethodName());//Whenever we start a test with extent an object will be created which is 'test'
 	
 	
 	}

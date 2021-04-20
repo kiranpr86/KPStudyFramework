@@ -25,7 +25,7 @@ public class util extends TestBase {
 		FileHandler.copy(Screenshotfile,new File(currentDir + "//screenshots//" + System.currentTimeMillis() +  ".png"));
 	}
 	
-	public static ExtentReports getReportmethod()
+	public static  ExtentReports getReportmethod()
 	{
 		String path = System.getProperty("user.dir") + "\\reports\\myextentreport.html";//Creating the path where reports will be created under the project folder
 		ExtentSparkReporter reporter = new ExtentSparkReporter(path);//This class will expect a path where the report should be created
